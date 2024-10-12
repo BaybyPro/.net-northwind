@@ -1,0 +1,258 @@
+﻿@model PaginatedList<Northwind.ViewModels.OrderVM>
+@using Northwind.Data;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<div>
+
+    <input type="hidden"  id="EmpId"/>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>N de orden</th>
+                <th><a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">Fecha de la orden</a></th>
+                <th><a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]" asp-route-currentFilter="@ViewData["CurrentFilter"]">Cliente</a></th>
+                <th>Número de contacto</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach (var order in Model)
+            {
+                <tr class="hover" 
+                    @* funcion para abrir un modal con los detalles del pedido y se manda el nombre arreglando el conflicto con "'" *@
+                    onclick="GetDetails(@order.OrderId,'@Html.Raw(order.CustomerName.Replace("'", "\\'"))')" id="GetDetails">
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate?.ToString("yyyy-MM-dd")</td>
+                    <td>@order.CustomerName</td>
+                    <td>@order.CustomerPhone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div>
+        <!---------- PAGINACIÓN -->
+        @{
+            var pagesInitially = 7; // Número de páginas que se inicia
+            var pagesToSides = 2; // Número de páginas que se mostrarán a cada lado de la página actual
+            var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        }
+
+        <!-- Botón Anterior -->
+        <a asp-action="Index"
+           asp-route-sortOrder="@ViewData["CurrentSort"]"
+           asp-route-pageNumber="@(Model.PageIndex - 1)"
+           class="btn btn-default @prevDisabled">
+            ⬅︎
+        </a>
+
+        <!-- Mostrar siempre la primera página -->
+        <a asp-action="Index"
+           asp-route-sortOrder="@ViewData["CurrentSort"]"
+           asp-route-pageNumber="1"
+           class="btn btn-default @(Model.PageIndex == 1 ? "bg-info" : "") border-2 border-info">
+            1
+        </a>
+
+        @if (Model.TotalPages > pagesInitially)
+        {
+            <!-- Si la página actual es mayor que el número de páginas inciadas -->
+            @if (Model.PageIndex >= pagesInitially)
+            {
+                <span class="btn disabled text-primary">...</span>
+            }
+
+            @if (Model.PageIndex < pagesInitially)
+            {
+                <!-- Inicia las 7 primeras páginas o el valor que se  ponga en  -->
+                @for (int i = 2; i <= Math.Min(pagesInitially, Model.TotalPages); i++)
+                {
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                       asp-route-pageNumber="@i"
+                       class="btn btn-default @(Model.PageIndex == i ? "bg-info" : "") border-2 border-info">
+                        @i
+                    </a>
+                }
+            }
+            else
+            {
+                <!-- Mostrar páginas alrededor de la actual -->
+                @for (int i = Math.Max(2, Model.PageIndex - pagesToSides); i <= Math.Min(Model.TotalPages - 1, Model.PageIndex + pagesToSides); i++)
+                {
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@ViewData["CurrentSort"]"
+                       asp-route-pageNumber="@i"
+                       class="btn btn-default @(Model.PageIndex == i ? "bg-info" : "") border-2 border-info">
+                        @i
+                    </a>
+                }
+            }
+
+            <!-- Puntos suspensivos si quedan páginas sin mostrar -->
+            @if (Model.PageIndex < Model.TotalPages - pagesToSides - 1)
+            {
+                <span class="btn disabled text-primary">...</span>
+            }
+
+            <!-- Mostrar la última página -->
+            <a asp-action="Index"
+               asp-route-sortOrder="@ViewData["CurrentSort"]"
+               asp-route-pageNumber="@Model.TotalPages"
+               class="btn btn-default @(Model.PageIndex == Model.TotalPages ? "bg-info" : "") border-2 border-info">
+                @Model.TotalPages
+            </a>
+        }
+        else
+        {
+            <!-- Si hay menos de 7 páginas, mostrarlas todas -->
+            @for (int i = 2; i <= Model.TotalPages; i++)
+            {
+                <a asp-action="Index"
+                   asp-route-sortOrder="@ViewData["CurrentSort"]"
+                   asp-route-pageNumber="@i"
+                   class="btn btn-default @(Model.PageIndex == i ? "bg-info" : "") border-2 border-info">
+                    @i
+                </a>
+            }
+        }
+
+        <!-- Botón Siguiente -->
+        <a asp-action="Index"
+           asp-route-sortOrder="@ViewData["CurrentSort"]"
+           asp-route-pageNumber="@(Model.PageIndex + 1)"
+           class="btn btn-default @nextDisabled">
+            ➡︎
+        </a>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="GetDetailsModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form asp-action="UpdateConfirm" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirmación de pedido</h5>
+                </div>
+                <div class="modal-body">
+                    <h2>Pedido 
+                      <span id="OrderId"></span>
+                      -
+                      <span id="CustomerName"></span>
+                    </h2>
+                    <div class="">
+                        <table class="table table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ProductTableBody">
+                                <!-- aquí se llenarán las filas dinámicamente -->
+                        </tbody>
+                        </table>
+                         <div class="form-group">
+                                <input type="hidden" name="OrderId" class="OrderId" />
+                                <div class="row">
+                                <div class="col-md-4">
+                                    <input type="date" id="ConfirmationDate" name="ConfirmationDate" class="form-control" />
+                                </div>
+                                <div class="col-md-4">
+                                   <!-- El input hidden asegura que se envíe el valor "false" cuando el checkbox no está marcado -->
+                                    <input type="checkbox" id="IsConfirmedCheckbox" />
+                                    <input type="hidden" id="IsConfirmed" name="IsConfirmed" value="false" />
+                                    <span>  Confirmado</span>
+                                </div>
+                                <div class="col-md-4 row">
+                                    <div class="col-md-6">
+                                        <label>Total:</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>
+                                            S/ <span id="Total"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-5">
+                                <div class="col-md-2">
+                                    <label>Comentario:</label>
+                                </div>
+                                <div class="col-md-10">
+                                    <textarea name="Comments" id="Comments" class="form-control" rows="4"></textarea>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btnCancel" data-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+                </form>
+            </div>
+        </div
+    </div>
+   
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            $(".btnCancel").click(function(){
+                $(".modal").modal('hide');
+            })
+        })
+
+        var GetDetails = function (id, customer) {
+            $.ajax({
+              type:"POST",
+                url: "/Order/GetDetails",
+                data: { id: id, customer: customer },
+                success: function (ordersDetails) {
+                        console.log(ordersDetails)
+                    $("#GetDetailsModal").modal('show');
+                    $("#OrderId").text(ordersDetails.orderId);
+                    $(".OrderId").val(ordersDetails.orderId);
+                    $("#CustomerName").text(ordersDetails.customerName);
+                    $("#Total").text(ordersDetails.total.toFixed(2));
+                    $("#ConfirmationDate").val(ordersDetails.confirmationDate ? ordersDetails.confirmationDate.split('T')[0] : '');
+                    updateIsConfirmedValue(ordersDetails.isConfirmed);
+                     $("#Comments").val(ordersDetails.comments);
+
+                    // Limpiar el cuerpo de la tabla antes de agregar los nuevos datos
+                    $("#ProductTableBody").empty();
+
+                    // Iterar sobre la lista de productos y agregarlos a la tabla
+                    ordersDetails.products.forEach(function (product) {
+                        $("#ProductTableBody").append(`
+                            <tr>
+                                    <td>${product.productId}</td>
+                                    <td>${product.productName}</td>
+                                    <td>${product.quantity}</td>
+                                    <td>S/ ${product.unitPrice.toFixed(2)}</td>
+                                    <td>S/ ${(product.total).toFixed(2)}</td>
+                            </tr>
+                        `);
+                    });
+                }
+            })
+        }
+
+        document.getElementById('IsConfirmedCheckbox').addEventListener('change', function() {
+            document.getElementById('IsConfirmed').value = this.checked;
+        });
+        function updateIsConfirmedValue(isConfirmed) {
+            document.getElementById('IsConfirmedCheckbox').checked = isConfirmed;
+            document.getElementById('IsConfirmed').value = isConfirmed;
+        }
+    </script>
+}
+

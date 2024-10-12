@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\viewmodels\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\models\\orderm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\models\\orderm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\viewmodels\\orderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\viewmodels\\orderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|c:\\users\\kevic\\onedrive\\documentos\\visual studio 2022\\templates\\projecttemplates\\c#\\northwind\\northwind\\viewmodels\\orderproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211D3649-DD48-49D9-9966-988CDCD5BCA9}|Northwind\\Northwind.csproj|solutionrelative:northwind\\viewmodels\\orderproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Program.cs",
+              "RelativeDocumentMoniker": "Northwind\\Program.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Program.cs",
+              "RelativeToolTip": "Northwind\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T08:38:38.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Northwind\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\appsettings.Development.json",
+              "RelativeToolTip": "Northwind\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T08:38:32.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Northwind\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Northwind\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T08:38:18.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:35:54.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:35:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:35:37.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:35:27.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T08:34:02.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAAAPYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T05:34:05.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderM.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Models\\OrderM.cs",
+              "RelativeDocumentMoniker": "Northwind\\Models\\OrderM.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Models\\OrderM.cs",
+              "RelativeToolTip": "Northwind\\Models\\OrderM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T04:10:16.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderVM.cs",
+              "RelativeDocumentMoniker": "Northwind\\ViewModels\\OrderVM.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderVM.cs",
+              "RelativeToolTip": "Northwind\\ViewModels\\OrderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:00:59.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Northwind\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Northwind\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T22:46:51.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderDetailsVM.cs",
+              "RelativeDocumentMoniker": "Northwind\\ViewModels\\OrderDetailsVM.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderDetailsVM.cs",
+              "RelativeToolTip": "Northwind\\ViewModels\\OrderDetailsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T21:11:40.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderProductVM.cs",
+              "RelativeDocumentMoniker": "Northwind\\ViewModels\\OrderProductVM.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\ViewModels\\OrderProductVM.cs",
+              "RelativeToolTip": "Northwind\\ViewModels\\OrderProductVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:19:18.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Northwind\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\kevic\\OneDrive\\Documentos\\Visual Studio 2022\\Templates\\ProjectTemplates\\C#\\Northwind\\Northwind\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Northwind\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwHIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T18:09:50.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
